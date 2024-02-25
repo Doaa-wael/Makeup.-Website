@@ -388,9 +388,34 @@ nav ul i:hover{color:  rgb(244, 36, 174);}
 
 
 
+@media(max-width:1023px){
+    .body{
+        font-size: 10px;
+    }
+    header{
+        padding: 12px 20px;
+    }
 
+    .nav a{
+        padding-left: 3px;
+    }
+}
 
+@media (max-width:641px){
+    
+}
 
+@media (max-width:390px) {
+    .body{
+        font-size: 2px;
+    }
+    .nav {
+        padding-left: 1px;
+    }
+    .footer{
+        height: 100vh;
+    }
+}
 
 
 
