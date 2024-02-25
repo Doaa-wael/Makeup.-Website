@@ -389,32 +389,136 @@ nav ul i:hover{color:  rgb(244, 36, 174);}
 
 
 @media(max-width:1023px){
-    .body{
-        font-size: 10px;
+    nav ul{
+        left: 0;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        margin-right: 50px;
+        margin-top: 10px;
     }
-    header{
-        padding: 12px 20px;
+    .services{
+        height: 199vh;
     }
 
-    .nav a{
-        padding-left: 3px;
-    }
+
+
 }
 
 @media (max-width:641px){
     
 }
 
-@media (max-width:390px) {
-    .body{
+@media (max-width:300px) {
+    body{
         font-size: 2px;
     }
-    .nav {
-        padding-left: 1px;
+    .header{
+        width: 390%;
     }
-    .footer{
-        height: 100vh;
+   nav{  
+    display: flex;
+    padding: 2% 5%; 
+}
+    nav ul {
+        margin-left: 600px;
+        flex: 30;
+        text-align: right;
+        margin-top: 0;
     }
+    nav ul li{
+        padding: 16px 7px;
+        display: inline-block;
+    }
+    nav ul li a{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    nav ul i{
+     font-size: 12px;
+     margin-left: 2px;
+    }
+    
+    .beauty{
+        display: flex;
+    }
+    .beauty-oneside{
+        display: flex;
+    }
+    .imgs img{
+        width: 390%;
+        height: 120vh;
+        min-height:1px ;
+        max-width:120px;
+      
+    }
+     .beauty-otherside{
+        margin-top: 10%;
+        margin-left: 10%;
+     }
+     .beauty-otherside h2{
+        font-family: 'Philosopher', sans-serif;
+        color: rgb(219, 12, 105);
+        font-size: 50px;
+        font-weight: 300;
+        margin-left: 40px;
+    }
+    
+    .beauty-otherside h1{
+        font-size: 50px;
+        font-weight:  200;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        margin-left: 40px;
+        font-family: 'Philosopher', sans-serif;
+    }
+    
+    .beauty-otherside p{
+        margin-left: 40px;
+    }
+    
+    .beauty-otherside .button{
+        margin-left: 0;
+        color: #e41e45;
+    }
+    
+   .services{
+     height: 240vh;
+     width: 184vh;
+   }
+   .services-cards{
+    margin: 6% 10px;
+   }
+   .card{
+    height: 59vh;
+    width: 130%;
+}
+
+.background{
+    width: 390%;
+    height: 50vh;
+}
+
+   .footer{
+    height: 100vh;
+    width: 390%;
+    font-size:2px ;
+
+   }
+
+   .btn{
+    width:70%;
+    height:10vh ;
+    margin-top: 10px;
+   }
+   .footer-mid-side li{
+    font-size: 10px;
+   }
+  .footer-right-side{
+    font-size: 10px;
+  }
 }
 
 
